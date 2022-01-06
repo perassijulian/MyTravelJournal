@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    background-color: #F55A5A;
+}
+
+.nav--logo{
+    max-height: 100%;
+    padding: 10px;
+}
+
+nav > h1 {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.world-icon{
+    height: 15px;
+}
+
+.card{
+    display:flex;
+    padding: 10px;
+    margin: 40px 0;
+}
+
+.card--img{
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card--body{
+    max-width: 600px;
+    min-width: 500px;
+    margin: 10px;
+}
+
+.card--mapslink{
+    padding-left: 20px;
+    color: #918E9B;
+}
+
+.card--title {
+    margin:7px 0;
+}
+
+.card--date {
+    margin-bottom: 0px;
+}
+
+.card--description{
+    max-height: 100px;
+    line-height: 125%;
+}
